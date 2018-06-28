@@ -1,0 +1,104 @@
+<html>
+<head>
+<link href="css/cssdapagina.css" rel="stylesheet">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>Filmes criticas e enquetes</title>
+
+<script type="text/javascript" src="javascript/javascriptpagina.js"></script>
+</head>
+<body>
+	<div id="topo">
+		<img src="imagens\cabecario.png" width="100%"  height="100%" /> 
+	
+	</div>	
+	<div id="menu">
+		<ul>
+						<li><a href="index.html">inicio</a></li>
+						<li><a href="animes.html">animes</a></li>
+						<li><a href="mangas.html">mangas</a></li>
+						<li><a href="filmes.html">filmes</a></li>
+						<li><a href="series.html">séries</a></li>
+				
+		</ul>
+		<input type="text" name="pesquisar" id="pesquisar" size="35px" maxlength="100" required autofocus placeholder="ex:filmes,séries,mangas,animes">
+		<input type="submit" value="pesquisar" id="bpesquisa" name="bpesquisa" onclick="pesquisapagina()">
+	</div>	
+
+	<div id="divgeral" >
+		<img src="imagens\jogador.jpg" align="left"    width="500px"  height="500px"title="capa do filme jogador n°1" />
+		<p>
+			<h1>Jogador Nº 1</h1>
+			<h2>Sinopse:   </h2> 
+			Em 2044, Wade Watts, assim como o resto da humanidade, prefere a realidade virtual do jogo OASIS ao mundo real.<br></br>
+			Quando o criador do jogo, o excêntrico James Halliday morre, os jogadores devem descobrir a chave de um quebra-cabeça<br></br>
+			diabólico para conquistar sua fortuna inestimável. Para vencer, porém, Watts tem de abandonar a existência virtual e <br></br>
+			ceder a uma vida de amor e realidade da qual sempre tentou fugir.<br></br>
+			<h2>Não deixe de curtir este filme</h2>
+			<h2>Assista ao trailer <a href="https://www.youtube.com/watch?v=LiK2fhOY0nE" target="_blank"> aqui</a></h2>
+		</p>
+	</div>
+	
+	<div id="divgeral" > 
+		<img src="imagens\circulo.png" align="left" title="capa circulo de fogo 2"/>
+		<p>
+			<h1>Círculo de Fogo: A Revolta</h1>
+			<h2>Sinopse:   </h2> 
+			Filho de Stacker Pentecost, responsável pelo comando da rebelião Jaeger,<br></br>
+			Jake Pendergast era um promissor piloto do programa de defesa, mas abandonou o treinamento <br></br>
+			e entrou no mundo do crime. Quando uma nova ameaça aparece, Mako Mori assume o lugar que era do pai <br></br>
+			no comando do grupo Jaeger e precisa reunir uma série de pilotos. Ela procura o irmão Jake e decide lhe oferecer<br></br>
+			uma segunda chance para ajudar no combate e provar seu valor.<br></br>
+			<h2>Não deixe de curtir este filme</h2>
+			<h2>Assista ao trailer <a href="https://www.youtube.com/watch?v=oBvZ89T0dkQ" target="_blank"> aqui</a></h2>
+		</p>
+	</div>
+	<div id="divgeral" >
+		<img src="imagens\guerrainfinita.jpg" align="left"   width="500px"  height="500px" title="capa vingadores guerra infinita"/>
+		<p>
+			<h1>Vingadores: guerra infinita</h1>
+			<h2>Sinopse:   </h2> 
+			Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, <br></br>
+			o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, <br></br>
+			Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade.<br></br>
+			<h2>Não deixe de curtir este filme</h2>
+			<h2>Assista ao trailer <a href="https://www.youtube.com/watch?v=3BXq73F2_z4" target="_blank"> aqui</a></h2>
+		</p>
+	</div>
+	
+	 <div id="melhorfilme">
+		<div id="tituloquiz">
+			<h1 >Qual melhor filme?</h1>
+		</div>
+		<form name="form1" method="post"onSubmit="votacao()" >
+			<ul>
+				<li onClick="seleciona(1);"><input  type="radio" id="quiz1" name="q1" ><img  src="imagens\quiz1.jpg"  width="200px"  height="100px"></li>
+				<li onClick="seleciona(2);"><input  id="quiz2"  type="radio" name="q1"> <img src="imagens\quizmulher.jpg"  width="200px"  height="100px"></li>
+				<li onClick="seleciona(3);"><input id="quiz3" type="radio" name="q1"><img src="imagens\quizamerica.png"  width="200px"  height="100px"></li>
+				<li onClick="seleciona(4);"><input id="quiz4" type="radio" name="q1"><img src="imagens\quizbts.jpg"  width="200px"  height="100px"></li>
+				<li onClick="seleciona(5);"><input id="quiz5"  type="radio" name="q1"> <img src="imagens\quizthor.jpg"  width="200px"  height="100px"></li>
+				<li onClick="seleciona(6);"><input  id="quiz6" type="radio" name="q1"><img src="imagens\quizliga.jpg"  width="200px"  height="100px"></li>
+				<li onClick="seleciona(7);"><input id="quiz7" type="radio" name="q1"><img src="imagens\quizgalaxia.png"  width="200px"  height="100px"></li>
+				
+										
+			</ul>
+			<input  type="submit" id="botao" onClick="validaRadio();" value="Vote aqui">
+		</form>
+	</div>
+	 
+	<div id="fundo">
+		<a href="https://www.instagram.com/" target="_blank" >
+			<img src="imagens\instagram.svg"align="left"  width="5%"  height="100%" title="logo do instagram"/>
+		</a>
+		<a href="https://www.facebook.com/" target="_blank" >
+			<img src="imagens\face.png"  align="left"width="5%"  height="100%" title="logo do facebook"/>
+		</a>
+		<h3  align="center">obrigado por sua visita ©	</h3>
+		
+	</div>
+	
+
+</body>
+
+
+
+</html>

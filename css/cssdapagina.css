@@ -1,0 +1,285 @@
+body{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:13px;
+	margin: 0;
+	padding: 0;
+	background-color #FFFFFF;
+}
+a {	text-decoration:none; }
+#topo{
+	width:100%;
+	height:100px;	
+	position:absolute;
+	top:0px;
+	left:0px;
+	background-color #000FFF;				
+}
+#menu{	
+	position:relative;	
+	top:105px;
+	width: 100%; 	
+	height:30px;
+}
+#pesquisar{
+	top:0px;
+	float:right;
+	border-radius:10px;	
+}
+#bpesquisa{	
+	background-color:transparent;
+	top:0px;
+	float:right;
+	border-radius:10px;			
+}
+#bpesquisa:active{
+     box-shadow: inset 0 0 7px rgba(0, 0, 0, .2);
+     top: 4px;
+    }
+#bpesquisa:active:before{
+     border: none;
+     box-shadow:none;
+    }
+h1{color:#FF0000;}
+h2{color:#1C1C1C;}
+p{ p-style:none;	}
+#menu li a{					
+	text-decoration:none;
+	color:#FFF;
+	background-color:#09C;
+	margin-bottom:30px;
+	padding:2px 50px;
+}
+#menu li a:hover
+{				
+background-color:#6CF;
+}
+
+#menu li {
+	
+	height:20px;
+	list-style:none;	
+	display:inline-block;
+	background-color:#09C;		
+}
+#menu ul{	
+	margin:0;padding:0;	
+}
+
+
+
+#deadpool{	
+	position:relative;
+	top:143px;
+	border: 2px solid;
+	border-color:transparent;
+	border-radius:5px;
+	background-color:#a3a2f1;
+	left:20%;
+	padding: 4px;
+	width:60%;
+}
+#deadpool:hover{	
+
+	border: 2px solid;
+	border-color:#000000;
+	
+
+}
+#twdvinho{	
+	position:relative;
+	top:145px;
+	border: 2px solid;
+	border-color:transparent;
+	border-radius:5px;
+	background-color:#a3a2f1;
+	left:20%;
+	padding: 4px;
+	width:60%;
+}
+#twdvinho:hover{
+	border: 2px solid;
+	border-color:#000000;
+}	
+#wolver{
+	position:relative;
+	top:147px;
+	border: 2px solid;
+	border-radius:5px;
+	border-color:transparent;
+	background-color:#a3a2f1;	
+	float:left;
+	padding: 4px;
+	width:60%;
+	left:20%;
+}
+#wolver:hover{
+	
+	border: 2px solid;
+	border-color:#000000;
+	
+}
+#avatar{
+	position:relative;
+	top:149px;
+	border: 2px solid;
+	border-radius:5px;
+	border-color:transparent;
+	background-color:#a3a2f1;
+	float:left;
+	padding: 4px;
+	width:60%;
+	left:20%;
+}
+#avatar:hover{
+	border-color:#000000;
+}
+#divgeral{
+	position:relative;	
+	top:145px;
+	margin-top:10px; 
+	border: 2px solid;
+	border-radius:5px;
+	border-color:transparent;
+	background-color:#a3a2f1;
+	margin-left:0px;
+	margin-top:5px;
+	float:left;
+	padding: 4px;	
+	padding: 4px;
+	width:80%;
+	left:10%;
+}
+#divgeral:hover{border-color:#000000;}
+
+#supernatural{
+	position:relative;	
+	top:145px;
+	margin-top:10px; 
+	border: 2px solid;
+	border-radius:5px;
+	border-color:transparent;
+	background-color:#a3a2f1;
+	margin-left:0px;
+	margin-top:5px;
+	float:left;
+	padding: 4px;	
+	padding: 4px;
+	width:80%;
+	left:10%;
+ 
+}
+#fundo{
+	position:relative;	
+	top:145px;
+	margin-top:10px; 
+	border: 2px solid;
+	background-color:transparent;
+	margin-left:0px;
+	margin-top:5px;
+	float:left;	
+	width:99%;
+	height:50px;	
+	position:relative;	
+	bottom:1px;
+
+	
+	
+}
+#fundo img:hover{
+	box-shadow: inset 3px 5px 7px #888;
+background-color:#E8E8E8;
+	
+	
+}
+#melhorfilme{
+	position:relative;	
+	top:145px;
+	margin-top:10px; 
+	margin-left:0px;
+	margin-top:5px;
+	float:left;
+	padding: 4px;	
+	padding: 4px;
+	width:90%;
+	background-color:none;
+	position:relative;
+	top:145px;
+	margin-top:10px; 
+}
+#melhorfilmeli a{					
+	text-decoration:none;
+	color:#FFF;
+	background-color:#09C;
+	margin-bottom:30px;
+	padding:2px 50px;
+}
+#melhorfilme li:hover{box-shadow: 3px 5px #FF0000;	}
+
+#melhorfilme li {
+	
+	height:100px;
+	list-style:none;	
+	display:inline-block;
+	background-color:transparent;		
+}
+#melhorfilme ul{	
+	margin:0;padding:0;	
+}
+#sombra{	
+	box-shadow:5px 10px #888888;
+}
+#botao{
+	position:relative;
+	top:10px;
+	background-color:transparent;
+	border-color:#FF4500;
+	border-radius:10px;		
+	height:20px;
+}
+
+
+#tituloquiz{
+	text-align: center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
